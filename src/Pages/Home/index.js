@@ -1,7 +1,7 @@
 import React from "react";
 import Pricing from "../../Components/Pricing";
 import Section from "../../Components/Section";
-import { homeObjeOne } from "../../Services/Data";
+import { homeObjeOne } from "../../Data/homeData";
 
 function Home() {
   return (
