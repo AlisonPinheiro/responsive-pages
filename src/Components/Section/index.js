@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../Button";
 import { Link } from "react-router-dom";
-import "./style.css";
+import "./Section.css";
 
 function Section({
   lightBackground,
@@ -18,9 +18,7 @@ function Section({
   return (
     <>
       <div
-        className={
-          lightBackground ? "home__section" : "home__hero-section darkBg"
-        }
+        className={lightBackground ? "home__section" : "home__section darkBg"}
       >
         <div className="container">
           <div

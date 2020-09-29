@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import { MdFingerprint } from "react-icons/md";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Button } from "../Button";
-import "./style.css";
+import "./Header.css";
 import { IconContext } from "react-icons/lib";
 
-function Navbar() {
+function Header() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -87,4 +87,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Header;
