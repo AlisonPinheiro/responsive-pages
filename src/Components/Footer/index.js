@@ -9,7 +9,10 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { MdFingerprint } from "react-icons/md";
+import menuFooter from "./menu-footer";
 import "./Footer.css";
+
+console.log(menuFooter());
 
 function Footer() {
   return (
@@ -33,6 +36,7 @@ function Footer() {
           </form>
         </div>
       </section>
+
       <div className="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-link-items">
@@ -68,6 +72,7 @@ function Footer() {
           </div>
         </div>
       </div>
+
       <section className="social-media">
         <div className="social-media-wrap">
           <div className="footer-logo">
