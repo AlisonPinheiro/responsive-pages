@@ -64,12 +64,12 @@ function Header() {
               </li>
               <li className="nav-btn">
                 {button ? (
-                  <Link to="/sing-up" className="btn-link">
+                  <Link to="/sign-up" className="btn-link">
                     <Button buttonStyle="btn--outline"> SING UP</Button>
                   </Link>
                 ) : (
                   <Link
-                    to="/sing-up"
+                    to="/sign-up"
                     className="btn-link"
                     onClick={closeMobileMenu}
                   >

@@ -43,15 +43,14 @@ function Section({
                 >
                   {description}
                 </p>
-                <Link to="/sing-up">
+                <Link to="/sign-up">
                   <Button buttonSize="btn--wide" buttonColor="blue">
                     {buttonLabel}
                   </Button>
                 </Link>
               </div>
             </div>
-          </div>
-          <div className="col">
+
             <div className="col">
               <div className="home__section-img-wrapper">
                 <img src={img} alt={alt} className="home__section-img" />

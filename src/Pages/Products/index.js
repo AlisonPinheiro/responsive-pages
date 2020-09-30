@@ -1,16 +1,17 @@
 import React from "react";
 import Pricing from "../../Components/Pricing";
 import Section from "../../Components/Section";
-import { homeObjeOne, homeObjeTwo } from "../../Data/homeData";
+import { homeObjeOne, homeObjeTwo, homeObjeThree } from "../../Data/homeData";
 
-function Home() {
+function Products() {
   return (
     <>
+      <Section {...homeObjeTwo} />
       <Section {...homeObjeOne} />
       <Pricing />
-      <Section {...homeObjeTwo} />
+      <Section {...homeObjeThree} />
     </>
   );
 }
 
-export default Home;
+export default Products;
