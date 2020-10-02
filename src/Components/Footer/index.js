@@ -12,8 +12,6 @@ import { MdFingerprint } from "react-icons/md";
 import menuFooter from "./menu-footer";
 import "./Footer.css";
 
-console.log(menuFooter());
-
 function Footer() {
   return (
     <div className="footer-container">
