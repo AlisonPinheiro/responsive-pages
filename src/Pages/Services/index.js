@@ -3,13 +3,14 @@ import Pricing from "../../Components/Pricing";
 import Section from "../../Components/Section";
 import { servicesObj } from "../../Data/servicesData";
 import { homeObjeOne } from "../../Data/homeData";
+import TitlePage from "../../Components/TitlePage";
 
 import "./Services.css";
 
 function Services() {
   return (
     <>
-      <h1> Services</h1>
+      <TitlePage title="Services" subTitle="Our Services" />
       <Section {...servicesObj} />
       <Pricing />
       <Section {...homeObjeOne} />
