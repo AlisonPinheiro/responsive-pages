@@ -1,0 +1,39 @@
+.callaction-midle {
+  padding: 20px 0;
+  background: #0083da;
+}
+
+.callaction-midle .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .callaction-midle .container {
+    flex-direction: column;
+  }
+  .callaction-midle h4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .callaction-midle .container .btn-link {
+    margin-left: 0;
+  }
+}
+
+.callaction-midle .btn-link {
+  width: auto;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.callaction-midle h4 {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.callaction-midle button:hover {
+  transform: scale(0.9);
+}
