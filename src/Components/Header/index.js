@@ -28,53 +28,56 @@ function Header() {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff" }}>
+      <IconContext.Provider value={{ color: "#0083da" }}>
         <div className="navbar">
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              <MdFingerprint className="nav-icon" />
-              Example
+              <img src="/images/logo-transferilar.png" alt="transferilar" />
             </Link>
             <div className="menu-icon" onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                  Home
+                <Link
+                  to="/empresa"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  a empresa
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  to="/services"
+                  to="/servicos"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  Services
+                  serviços
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  to="/products"
+                  to="/orcamento"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  Products
+                  faça seu orçamento
                 </Link>
               </li>
               <li className="nav-btn">
                 {button ? (
-                  <Link to="/sign-up" className="btn-link">
-                    <Button buttonStyle="btn--outline"> SING UP</Button>
+                  <Link to="/contato" className="btn-link">
+                    <Button buttonStyle="btn--outline">contato</Button>
                   </Link>
                 ) : (
                   <Link
-                    to="/sign-up"
+                    to="/contato"
                     className="btn-link"
                     onClick={closeMobileMenu}
                   >
                     <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
-                      SING UP
+                      contato
                     </Button>
                   </Link>
                 )}
